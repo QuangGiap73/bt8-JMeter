@@ -30,7 +30,7 @@ View Results Tree / Summary Report	Xem kết quả
 Assertion	Kiểm tra tự động nội dung phản hồi
 
 # 2. Các bước cụ thể:
- A. Thêm Thread Group
+ ## A. Thêm Thread Group
   Test Plan → Add → Threads (Users) → Thread Group
 
 Cấu hình:
@@ -43,7 +43,7 @@ Loop Count: 2
 ![Ảnh chụp màn hình 2025-06-19 173038](https://github.com/user-attachments/assets/987433f5-2478-4065-87ee-dc0b00770230)
 
 
- B. Thêm HTTP Request (GET)
+ ## B. Thêm HTTP Request (GET)
 Chuột phải Thread Group → Add → Sampler → HTTP Request
 
 Cấu hình:
@@ -60,7 +60,7 @@ Port: (để trống hoặc 443 nếu HTTPS)
 ![image](https://github.com/user-attachments/assets/b729904a-67b0-439f-9959-91f0f1b1169b)
 
 
- C. Thêm View Kết quả
+ ## C. Thêm View Kết quả
 Chuột phải Thread Group → Add → Listener:
 
 View Results Tree
@@ -70,7 +70,7 @@ Summary Report
 ![Ảnh chụp màn hình 2025-06-19 173554](https://github.com/user-attachments/assets/b7be9af1-705c-400c-94ca-54c967803344)
 
 
- D. Thêm Response Assertion (kiểm tra dữ liệu phản hồi)
+ ## D. Thêm Response Assertion (kiểm tra dữ liệu phản hồi)
 Chuột phải vào HTTP Request → Add → Assertions → Response Assertion
 
 Chọn:
