@@ -1,5 +1,5 @@
 # Kiểm thử RESTful API với Apache JMeter
-Tài liệu này hướng dẫn cách sử dụng Apache JMeter để thực hiện kiểm thử hiệu năng và chức năng cơ bản của RESTful API, bao gồm gửi request, kiểm tra phản hồi, thêm kiểm tra tự động (assertion), và xem kết quả.
+Hướng dẫn cách sử dụng Apache JMeter để thực hiện kiểm thử hiệu năng và chức năng cơ bản của RESTful API, bao gồm gửi request, kiểm tra phản hồi, thêm kiểm tra tự động (assertion), và xem kết quả.
 
 ## Mục tiêu
 Thực hiện kiểm thử API công khai https://jsonplaceholder.typicode.com/posts bằng JMeter với các mục tiêu:
